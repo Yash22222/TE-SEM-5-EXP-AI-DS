@@ -1,0 +1,74 @@
+EXPERIMENT NO 1 - Provide the PEAS description and TASK Environment for a given AI problem.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+PEAS DESCRIPTION OF WAMPUS WORLD:- 
+
+[1] PERFORMANCE MEASURE:-
+
+1] +1000 points for climbing out of the cave with the gold.
+
+2] -1000 points for falling into a pit or being eaten by the wumpus.
+
+3] -1 point for each action taken.
+
+4] -10 points for using up the arrow.
+
+[2] ENVIRONMENT:-
+
+1] A 4x4 grid of rooms.
+
+2] The agent starts in the top left room, facing right.
+
+3] The wumpus can be in any of the rooms, but not the starting room.
+
+4] The gold is in one of the rooms, but not the starting room.
+
+5] There is a pit in one of the rooms, but not the starting room.
+
+[3] SENSORS:-
+
+The agent can sense the following:
+
+1] Breeze: Indicates that there is a pit in an adjacent room.
+
+2] Stench: Indicates that there is a wumpus in an adjacent room.
+
+3] Glitter: Indicates that the gold is in the current room.
+
+[4] Actuators:-
+
+The agent can perform the following actions:
+
+1] Move forward.
+
+2] Turn left.
+
+3] Turn right.
+
+4] Shoot the arrow.
+
+--------------------------------------------------------------------------------------------------------------------
+
+TASK ENVIROMENT OF WAMPUS WORLD:-
+
+1] Deterministic vs. Stochastic: The Wumpus World is stochastic, 
+meaning that the outcome of an action is not always certain. For example, if the agent moves forward, it may end up in a room with a pit, a room with the wumpus, or a room with neither.
+
+2] Competitive vs. Collaborative: The Wumpus World is competitive, 
+meaning that the agent is trying to achieve its goal without regard for the goals of other agents. There are no other agents in the Wumpus World, so the agent is only competing with itself.
+
+3] Single-agent vs. Multi-agent: The Wumpus World is a single-agent task, 
+meaning that there is only one agent in the environment.
+
+4] Static vs. Dynamic: The Wumpus World is static, 
+meaning that the environment does not change over time. The wumpus, the gold, and the pits are always in the same places.
+
+5] Discrete vs. Continuous: The Wumpus World is discrete, 
+meaning that the state space is finite. There are only a limited number of rooms in the cave, and the agent can only move in a limited number of directions.
+
+6] Episodic vs. Sequential: The Wumpus World is episodic, 
+meaning that each episode begins with the agent in the starting room and ends when the agent either reaches the goal or dies.
+
+7] Known vs. Unknown: The Wumpus World is partially observable, 
+meaning that the agent does not know the exact state of the environment. The agent can only sense the presence of pits and wumpus through its sensors.
