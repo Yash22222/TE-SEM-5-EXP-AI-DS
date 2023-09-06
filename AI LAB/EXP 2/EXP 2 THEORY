@@ -1,0 +1,28 @@
+Aim:- Identify suitable Agent Architecture for the Wompus World.
+
+Theory:-
+
+The Wumpus World game is basically Utility based agent. It aims to make choices that lead to outcomes with the highest possible value or benefit, 
+taking into consideration THE preferences & the goals of the decision maker. 
+
+1] Goal:- A utility-based agent in "Wumpus World" aims to make choices that maximize its score by assiaging values to actions that lead to better outcomes.
+
+2] utility function:- values assigned to states (eg. gold VS dangers).
+
+3] Decision Process:- Expected utility calculated for action using probabilities and utilities.
+
+4] Uncertainty:- Deals with uncertain hazard and Wampus. locations.
+
+5] Trads-offs:- Balances rewards and risks, in forms decisions.
+
+6] Complexity:- Navigates maze, avoids hazards, finds gold -
+
+7] Adaptation: Adjusts utility based on past experiences.
+
+8] Application Guides agent in Wumpus World for Optimal play.
+
+9] challenges:- Models probabilities, define utility values, handles changes
+
+Conclusion:-
+
+Thus, i have successfully identify suitable agent architecture for WAMPUS WORLD
