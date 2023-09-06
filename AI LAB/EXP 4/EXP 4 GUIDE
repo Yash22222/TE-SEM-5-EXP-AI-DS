@@ -1,4 +1,17 @@
-AIL EXPERIMENT 4
+AIL EXPERIMENT 4 - Implement any one of the Uninformed search techniques
 
-EXP 4 - Implement any one of the Uninformed search techniques
+OUTPUT:-
 
+Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+========================= RESTART: D:/Python/AIEXP4.py =========================
+['A', 'C', 'E', 'B', 'D', 'F']
+
+
+# DFS is an uninformed search algorithm that explores a tree or graph by expanding the most recently discovered node as far as possible before backtracking. 
+# It can be implemented using a stack data structure.
+# This algorithm works by first adding the start node to the stack. Then, it repeatedly pops the top node from the stack and adds it to the visited list. 
+# If the node has unvisited adjacent nodes, they are added to the stack. This process continues until the stack is empty, meaning all nodes have been visited.
+# DFS is a simple and efficient algorithm that can be used to solve a variety of search problems. 
+# However, it can also be inefficient in graphs with a large number of paths to the goal node. Other search algorithms, such as breadth-first search, may be more efficient in these cases.
