@@ -1,1 +1,26 @@
+AIM:- Implement any one of the Uninformed search techniques
 
+THEORY:- 
+The depth-first search algorithm is an uninformed search algorithm, which means that it does not use any prior knowledge about the problem to guide its search. 
+The algorithm works by exploring each path in the search space until it reaches a dead end or finds the goal node.
+The depth-first search algorithm can be implemented using a stack data structure. The stack is used to keep track of the nodes that have been visited and the nodes that still need to be explored. 
+The algorithm starts by pushing the start node onto the stack. Then, it repeatedly pops the top node from the stack and explores all of its children. 
+If one of the children is the goal node, then the algorithm returns the path to the goal node. Otherwise, the algorithm pushes the children of the current node onto the stack and repeats. 
+The algorithm terminates when the stack is empty, which means that no path to the goal node exists.
+
+CONCLUSION:-
+The depth-first search algorithm is a simple and easy-to-implement algorithm. However, it can be inefficient in some cases. For example, if the search space is large and there are many dead ends, 
+then the depth-first search algorithm may take a long time to find the goal node.
+The depth-first search algorithm can be used to solve a variety of problems, such as maze-solving and graph traversal. The algorithm is also used in many other applications, such as backtracking and recursion.
+
+Here are some advantages and disadvantages of the depth-first search algorithm:
+
+Advantages:
+1] Simple and easy to implement
+2] Can be used to solve a variety of problems
+3] Can find the goal node even if the search space is large
+
+Disadvantages:
+1] Can be inefficient in some cases
+2] May not find the shortest path to the goal node
+3] May get stuck in a loop
