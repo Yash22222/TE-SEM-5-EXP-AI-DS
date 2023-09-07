@@ -1,1 +1,34 @@
+AIL EXPERIMENT NO 6
 
+AIM:- Implement adversarial search using min-max algorithm.
+
+THEORY:- 
+
+Implementation of the Min-Max algorithm with alpha-beta pruning for a simplified version of the game Tic-Tac-Toe, where a human player (Player1) plays against an AI opponent (Player2).
+
+1] Game Initialization:- The game board is represented as a list called a board with 9 elements, initially filled with empty spaces (' ').
+Player1 and player2 are defined as 'X' and 'O', respectively.
+
+2] Printing the Game Board:- The print_board function displays the current state of the Tic-Tac-Toe board in a user-friendly format.
+
+3] Checking for a Winner:- The check_winner function checks if a player has won by comparing the current board configuration against all possible winning combinations.
+
+4] Checking for a Tie:- The is_board_full function checks if the board is completely filled, indicating a tie (a draw).
+
+5] Min-Max Algorithm with Alpha-Beta Pruning:- The minimax function implements the Min-Max algorithm with alpha-beta pruning. It recursively evaluates the game state to find the best move for Player 2 (the AI).
+It considers three possible outcomes: -1 for Player 1 winning, 1 for Player 2 winning, and 0 for a tie. 
+The algorithm alternates between maximizing and minimizing the player's score, simulating Player2 (the AI) trying to maximize its score while assuming Player1 (the opponent) is trying to minimize it.
+Alpha-beta pruning is used to reduce the number of explored branches in the game tree, improving efficiency.
+
+6] Finding the Best Move for AI (Player2):- The find_best_move function iterates through the empty spaces on the board, simulating Player2's moves and using the minimax function to determine the best move.
+
+7] Main Game Loop:- The main game loop continues until there's a winner or a tie. It alternates between Player1 and Player2 (AI) making moves.
+The human player (Player1) inputs their move, and the AI (Player2) calculates and makes its move using the find_best_move function. After each move, the code checks if there is a winner or if the game is a tie.
+The game loop exits when there is a winner or a tie, and the result is displayed.
+
+8] Game Over Messages:- When the game ends, it prints a message indicating the winner (Player1, Player2, or a tie).
+
+CONCLUSION:- 
+
+The provided Python code demonstrates a basic Tic-Tac-Toe game where a human player faces off against an AI opponent (Player2). 
+The AI uses the Min-Max algorithm with alpha-beta pruning for making strategic moves.
