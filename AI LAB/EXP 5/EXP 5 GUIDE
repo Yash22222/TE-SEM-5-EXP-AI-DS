@@ -1,0 +1,20 @@
+AIM :-  Implement any one of the Informed search techniques E.g. A-Star algorithm for 8 puzzle problem
+
+THEORY:- 
+# The 8 puzzle problem is a puzzle consisting of 8 numbered tiles arranged in a 3x3 grid. The objective of the puzzle is to move the tiles around so that they are arranged in ascending order, 
+from 1 to 8. The puzzle can be solved by moving the tiles one by one, but there are many possible moves that can be made.
+
+# The A* algorithm is an informed search algorithm that can be used to solve the 8 puzzle problem efficiently. The A* algorithm works by maintaining a list of open nodes, which are nodes that have not yet been explored. 
+Each node in the list has a score, which is a combination of the cost of reaching the node and a heuristic estimate of the cost of reaching the goal from the node. The A* algorithm then repeatedly expands the node with the lowest score until it reaches the goal node.
+
+# The heuristic function used in the A* algorithm for the 8 puzzle problem is the Manhattan distance heuristic. The Manhattan distance heuristic estimates the cost of reaching the goal from a given node by counting the number of tiles that are out of place. 
+The lower the Manhattan distance, the lower the score of the node, and the more likely the node is to be expanded next.
+
+CONCLUSION:-
+# The A* algorithm is a very efficient way to solve the 8 puzzle problem. In most cases, the A* algorithm will be able to find the solution to the puzzle in a few steps. 
+
+1] The A* algorithm is a greedy algorithm, which means that it always expands the node with the lowest score. 
+This ensures that the algorithm will eventually find the solution to the problem, but it does not guarantee that it will find the shortest solution.
+
+2] The A* algorithm can be implemented using a variety of data structures, but a priority queue is the most efficient data structure to use. 
+A priority queue is a data structure that keeps track of a set of elements, each of which has a priority. The elements are always sorted by their priority, and the element with the highest priority is always the first element to be removed from the queue.
