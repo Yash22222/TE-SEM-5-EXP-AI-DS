@@ -2,6 +2,24 @@ EXPERIMENT NO 3
 
 3. Write simple programs using PROLOG as an AI programming Language:-
 
+Theory:- 
+This Prolog program defines a family tree. The first few lines of code (female(pam). male(tom). male(bob). female(liz). female(ann). female(pat). male(jim).) 
+define the genders of the people in the family tree. The next line (parent(pam,bob).) defines that Pam is Bob's mother. The following lines of code define the other parent-child relationships in the family tree.
+The next three lines of code (mother(X,Y):- parent(X,Y),female(X). father(X,Y):- parent(X,Y),male(X). grandparent(X,Y):-parent(X,Z),parent(Z,Y).) 
+define the predicates mother, father, and grandparent. The mother(X,Y) predicate states that X is the mother of Y if X is a parent of Y and X is female. 
+The father(X,Y) predicate states that X is the father of Y if X is a parent of Y and X is male. The grandparent(X,Y) predicate states that X is the grandparent of Y if X is a parent of Z and Z is a parent of Y.
+
+For example, the following query would return true: mother(pam,bob).
+This query asks if Pam is the mother of Bob. The predicate mother(X,Y) is true if X is the mother of Y, and the first line of code (female(pam).) states that Pam is female. 
+Therefore, the query returns true.
+
+# Here are some other queries that you could ask:
+
+1] Is Tom the father of Liz? (parent(tom,liz).)
+2] Is Ann the grandparent of Jim? (grandparent(ann,jim).)
+3] Who are the parents of Pat? (parent(X,pat).)
+
+How To Execute  This in College Lab:-
 Step - 1 = In Linux/Ubuntu Go To Text Editor and Paste This
 
 female(pam).
