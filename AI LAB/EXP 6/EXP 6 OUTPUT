@@ -1,0 +1,46 @@
+Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+========================= RESTART: D:\Python\AIEXP6.py =========================
+  |   |  
+---------
+  |   |  
+---------
+  |   |  
+
+Enter your move (1-9): 1
+X |   |  
+---------
+  | O |  
+---------
+  |   |  
+
+Enter your move (1-9): 9
+X | O |  
+---------
+  | O |  
+---------
+  |   | X
+
+Enter your move (1-9): 8
+X | O |  
+---------
+  | O |  
+---------
+O | X | X
+
+Enter your move (1-9): 3
+X | O | X
+---------
+  | O | O
+---------
+O | X | X
+
+Enter your move (1-9): 4
+X | O | X
+---------
+X | O | O
+---------
+O | X | X
+
+It's a tie!
