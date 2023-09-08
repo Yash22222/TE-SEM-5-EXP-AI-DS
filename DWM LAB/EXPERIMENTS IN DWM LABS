@@ -1,0 +1,26 @@
+Sr. No.   Name of the Experiment
+
+1         Data Warehouse Construction a) Real life Problem to be defined for Warehouse Design
+                                      b) Construction of star schema and snow flake schema 
+                                      c) ETL Operations.
+
+2         Construction of Cubes , OLAP Operations, OLAP Queries
+
+3         Tutorials a) Solving exercises in Data Exploration 
+                    b) Solving exercises in Data preprocessing
+
+4         Using open source tools Implement Classifiers
+
+5         Using open source tools Implement Association Mining Algorithms
+
+6         Using open source tools Implement Clustering Algorithms
+
+7         Implementation of any one classifier using languages like JAVA / python
+
+8         Implementation of any one clustering algorithm using languages like JAVA / python
+
+9         Implementation of any one association mining algorithm using languages like JAVA / python.
+
+10        Implementation of page rank algorithm.
+
+11        Implementation of HITS algorithm
