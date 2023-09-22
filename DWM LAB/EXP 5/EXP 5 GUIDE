@@ -1,0 +1,25 @@
+DWML EXP 5
+
+AIM - Using open source tools Implement Association Mining Algorithms
+
+Theory -
+
+The Apriori algorithm is a bottom-up approach to association rule mining. It works by first identifying the frequent itemsets in the data. 
+A frequent itemset is a set of items that occurs together in a certain number of transactions. Once the frequent itemsets have been identified, the Apriori algorithm generates association rules from them. 
+An association rule is a statement of the form "if item A is purchased, then item B is also likely to be purchased."
+
+The Apriori algorithm uses the following steps to generate association rules:
+
+1} It starts with the frequent itemsets of size 1.
+2} For each frequent itemset of size 1, it generates all possible candidate itemsets of size 2.
+3} It scans the data to count the support of each candidate itemset.
+4} It removes any candidate itemset that is not frequent.
+5} It iterates steps 2-4 until no new frequent itemsets are generated.
+6} Once the Apriori algorithm has finished generating association rules, it filters the rules based on their confidence. 
+The confidence of an association rule is the percentage of transactions that contain the antecedent and consequent of the rule. The Apriori algorithm only keeps the rules that have a confidence above a certain threshold.
+
+
+CONCLUSION - 
+
+association rule mining is a technique that can be used to identify patterns and trends in transactional data. 
+This information can then be used to make better business decisions, such as targeted promotions, product placements, and personalized recommendations.
