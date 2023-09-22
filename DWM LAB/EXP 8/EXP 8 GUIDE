@@ -1,0 +1,25 @@
+DWML EXP - 8
+
+AIM - Implementation of any 1 Clustering Algorithm using Languages like Python
+
+THEORY -
+
+The provided demonstrates the application of the K-Means clustering algorithm using the Iris dataset, which is a common dataset for machine learning and data analysis. 
+Here's an overview of the code's key components:
+
+1] Data Retrieval: The code begins by specifying the URL of the Iris dataset and uses the urlretrieve function to download the dataset and save it as "iris.data" in the current directory.
+
+2] Data Preprocessing: It defines column names for the dataset to make it more readable and loads the data into a Pandas DataFrame. 
+The features (sepal length, sepal width, petal length, and petal width) are extracted for clustering, excluding the target class.
+
+3] K-Means Clustering: The K-Means clustering algorithm is initialized with a predetermined number of clusters (in this case, 3). It is then fitted to the feature data to identify natural clusters within the dataset.
+
+4] Cluster Visualization: The code visualizes the clusters by creating a scatter plot of sepal length vs. sepal width. Each point in the plot is colored according to its assigned cluster label.
+
+5] Cluster Centroids: The cluster centroids, representing the center of each cluster, are calculated and printed.
+
+CONCLUSION -
+
+It showcases the K-Means clustering algorithm's implementation on the Iris dataset, a common dataset in machine learning. 
+K-Means partitions the data into clusters based on similarity, and the resulting clusters are visualized in a scatter plot. 
+This code provides a practical example of how to apply unsupervised machine learning techniques to discover hidden patterns within data, which is valuable for various data analysis and segmentation tasks.
