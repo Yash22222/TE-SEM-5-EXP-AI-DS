@@ -1,0 +1,28 @@
+DWML EXP 4
+
+AIM - Using open source tools Implement Classifiers
+
+THEORY - 
+
+1. Data Loading: The code starts by importing necessary libraries and loading the sample dataset using Pandas. The dataset contains features (feature1, feature2, feature3) and a target variable (target).
+
+2. Data Splitting: The dataset is split into two parts: the features (X) and the target variable (y). This separation is essential as the features are used to train the classifier, 
+while the target variable contains the labels or classes that the classifier will predict.
+
+3. Train-Test Split: The data is further divided into training and testing sets using the `train_test_split` function from scikit-learn. 
+This allows for model training on one subset (training set) and evaluation on another subset (testing set) to assess its performance.
+
+4. Classifier Selection: In this example, a Random Forest Classifier is chosen as the machine learning algorithm. Random Forest is an ensemble method that combines multiple decision trees to make predictions.
+
+5. Model Training: The selected classifier is trained on the training data using the `fit` method. During training, the model learns to map the features to the corresponding target labels.
+
+6. Prediction: After training, the model is used to make predictions on the testing data using the `predict` method. This step evaluates how well the model generalizes to unseen data.
+
+7. Performance Evaluation: The code calculates and prints the accuracy of the classifier, which is a measure of the percentage of correctly predicted instances in the testing set. Additionally, 
+a classification report is generated, providing more detailed metrics such as precision, recall, F1-score, and support for each class.
+
+CONCLUSION -
+
+In summary, the code successfully demonstrates the process of building and evaluating a machine learning classifier using a sample dataset. 
+The classifier, a Random Forest, is trained on a portion of the data and evaluated on another portion to assess its accuracy and performance. 
+This type of workflow is common in machine learning for tasks like classification and can be extended to real-world datasets for various applications, such as spam detection, image recognition, and more.
