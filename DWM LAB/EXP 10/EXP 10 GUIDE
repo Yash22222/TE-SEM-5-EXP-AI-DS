@@ -4,5 +4,26 @@ AIM - Implementation of Page Rank Algorithm
 
 THEORY -
 
+The PageRank algorithm, developed by Larry Page and Sergey Brin, is a link analysis algorithm used by search engines to rank web pages in search results. 
+The fundamental idea behind PageRank is that the importance of a web page can be determined by the number and quality of links pointing to it. Here's a brief explanation of how the algorithm works
+
+1] Web Graph Representation: The internet is represented as a directed graph, where web pages are nodes, and hyperlinks between pages are edges. 
+Each edge represents a link from one page to another.
+
+2] Importance Calculation: PageRank assigns an importance score to each web page. Initially, all pages are given equal scores. The algorithm then iteratively updates these scores based on the links between pages.
+
+3] Damping Factor: PageRank introduces a damping factor (usually set to 0.85) to simulate the behavior of web users. 
+It means there's an 85% chance that a user will follow a link on a page and a 15% chance they will jump to any random page. This factor prevents the algorithm from getting stuck in loops.
+
+4] Iterative Calculation: PageRank iterates through the web graph, redistributing importance scores from pages with outgoing links to the pages they link to. 
+Pages with more incoming links (backlinks) receive higher scores.
+
+5] Convergence: The algorithm continues to iterate until the PageRank scores converge, meaning they no longer change significantly. This indicates that the importance scores have stabilized.
+
+6] Ranking: Once the PageRank scores have converged, the pages are ranked based on their scores. Pages with higher scores are considered more important and are ranked higher in search engine results.
 
 CONCLUSION -
+
+The PageRank algorithm plays a crucial role in web search engines by determining the importance and relevance of web pages. 
+It is a foundation for modern search engine algorithms. This simplified implementation illustrates the basic concept of PageRank, where web pages' importance is calculated based on the links they receive from other pages. 
+In practice, PageRank is a part of more complex algorithms used by search engines to provide users with relevant and authoritative search results.
