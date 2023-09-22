@@ -1,0 +1,24 @@
+DWML EXP 3
+
+AIM -  Data Preprocessing Using Binning Method
+
+Theory -
+
+
+Data binning is a data preprocessing technique that groups numeric data into discrete bins or categories. It can be used to improve the accuracy of machine learning models,
+reduce the size of the dataset, and make the data more interpretable. This can be done for a variety of reasons, such as:
+
+1] To improve the accuracy of machine learning models.
+2] To reduce the size of the dataset.
+3] To make the data more interpretable.
+
+There are two main types of binning strategies: equal-width binning and equal-frequency binning.
+
+1] Equal-width binning: This strategy divides the range of values into intervals of equal width.
+2] Equal-frequency binning: This strategy divides the data into intervals so that each interval contains the same number of data points.
+
+
+CONCLUSION -
+
+Data binning is a simple but powerful data preprocessing technique that can improve the accuracy and efficiency of machine learning models, reduce the size of datasets,
+and make data more interpretable. It is a widely used technique in data science and machine learning.
