@@ -1,0 +1,35 @@
+DWML EXP 11
+
+AIM - Implementation of HITS Algorithm
+
+THEORY - 
+
+The Hyperlink-Induced Topic Search (HITS) algorithm, also known as "Hubs and Authorities," is a link analysis algorithm used to analyze and rank web pages within a hyperlink network. 
+HITS identifies two primary roles for web pages
+
+1] Hubs: Hubs are web pages that provide links to other authoritative pages. They serve as connectors or intermediaries, often linking to a wide range of authorities on a particular topic. 
+Hubs are essential for directing users to relevant and authoritative content.
+
+2] Authorities: Authorities are web pages that are considered authoritative or central on a specific topic. They are often linked to by many hubs. 
+Authorities are typically rich in content and are trusted sources of information on a particular subject.
+
+The HITS algorithm is a link analysis algorithm that assigns two weights to each node in a graph: a hub weight and an authority weight. 
+The hub weight of a node measures how important it is as a source of links to other important nodes. The authority weight of a node measures how important it is as a destination of links from other important nodes.
+
+The HITS algorithm works by iteratively updating the hub and authority weights of all nodes in the graph. In each iteration, the hub weight of a node is updated based on the authority weights of its outgoing neighbors. 
+The authority weight of a node is updated based on the hub weights of its incoming neighbors.
+
+The HITS algorithm converges when the hub and authority weights of all nodes no longer change significantly. Once the algorithm has converged, the nodes with the highest hub weights are considered to be the most important hubs in the graph. 
+The nodes with the highest authority weights are considered to be the most important authorities in the graph.
+
+
+CONCLUSION - 
+
+The HITS algorithm is a powerful link analysis algorithm that can be used to identify important hubs and authorities in a network. 
+This information can then be used to improve the ranking of search results, identify influential individuals on social media, and recommend relevant products to customers.
+
+
+OUTPUT -
+
+Hub Scores: [8.88073834e-01 3.32328261e-07 3.25057584e-01 3.25057584e-01]
+Authority Scores: [6.42008901e-07 6.27963030e-01 6.27963030e-01 4.59700843e-01]
