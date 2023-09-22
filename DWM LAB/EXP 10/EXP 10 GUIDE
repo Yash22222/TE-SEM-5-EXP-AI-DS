@@ -27,3 +27,10 @@ CONCLUSION -
 The PageRank algorithm plays a crucial role in web search engines by determining the importance and relevance of web pages. 
 It is a foundation for modern search engine algorithms. This simplified implementation illustrates the basic concept of PageRank, where web pages' importance is calculated based on the links they receive from other pages. 
 In practice, PageRank is a part of more complex algorithms used by search engines to provide users with relevant and authoritative search results.
+
+OUTPUT -
+
+Page 1: 0.3141
+Page 2: 0.3254
+Page 3: 0.2340
+Page 4: 0.1265
