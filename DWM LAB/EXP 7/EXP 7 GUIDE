@@ -1,0 +1,29 @@
+DWML EXP 7 
+
+AIM - Implementation of Any 1 Classifier Using languages like Python
+
+THEORY -
+
+1] Importing Libraries: The necessary libraries are imported, including scikit-learn for machine learning, pandas for data handling, and urllib for downloading data from a URL.
+
+2] Data Retrieval: The code defines a URL where the Iris dataset is hosted. It then uses urlretrieve to download the dataset and save it as "iris.data" in the current directory.
+
+3] Data Loading: The dataset is loaded into a Pandas DataFrame with appropriate column names. The Iris dataset contains four features (sepal length, sepal width, petal length, and petal width) and a target class.
+
+4] Data Splitting: The dataset is split into two parts: the feature matrix X and the target vector y. Additionally, it is further divided into training and testing sets using the train_test_split function. 
+This step is crucial for training and evaluating the classifier.
+
+5] Classifier Initialization: A Random Forest Classifier is initialized with hyperparameters like the number of decision trees (n_estimators = 100) and a random seed (random_state = 42). 
+Random Forest is an ensemble learning algorithm that combines multiple decision trees to make predictions.
+
+6] Model Training: The classifier is trained on the training data using the fit method.
+
+7] Prediction: After training, the classifier makes predictions on the testing data using the predict method.
+
+8] Evaluation: The code evaluates the classifier's performance by calculating accuracy, which measures the proportion of correctly classified instances. It also generates a detailed classification report, including metrics like precision, recall, F1-score, and support for each class.
+
+
+CONCLUSION - 
+
+This code showcases how to download and load the Iris dataset from a URL, split it into training and testing sets, and train a Random Forest Classifier to classify Iris flowers into different species based on their features. 
+The classifier achieves a certain level of accuracy, and a classification report provides detailed performance metrics. This code serves as a fundamental example of how to implement a classifier for a machine learning task in Python.
