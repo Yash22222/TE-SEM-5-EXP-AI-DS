@@ -1,0 +1,66 @@
+2*  CSS3.Syntax, Inclusion, Color, Background, Fonts, Tables, lists,CSS3 selectors, Pseudo classes, Pseudo elements .
+
+WCN EXPERIMENT NO 2
+
+AIM - CSS3.Syntax, Inclusion, Color, Background, Fonts, Tables, lists,CSS3 selectors, Pseudo classes, Pseudo elements.
+
+THEORY - 
+
+[1] CSS3 Syntax - CSS3 syntax is based on the following rules:
+
+1. CSS declarations are made up of a property name and a value, separated by a colon (:).
+2. Property names are always case-insensitive.
+3. Property values can be any of the following:
+4. Keywords, such as red, bold, and center.
+5. Numbers, such as 10px and 3em.
+6. Functions, such as rgb(), hsl(), and calc().
+7. Strings, enclosed in single or double quotes.
+8. Multiple declarations can be grouped together within curly braces ({}).
+9. CSS declarations can be placed in either the <head> or <body> section of an HTML document.
+
+[2] CSS3 Inclusion - CSS3 can be included in an HTML document in two ways:
+
+1. Inline CSS: Inline CSS is applied to a single element and is placed directly within the <style> attribute of that element.
+2. External CSS: External CSS is applied to multiple elements and is placed in a separate CSS file, which is then linked to in the <head> section of the HTML document.
+
+[3] CSS3 Color - CSS3 colors can be specified in a variety of ways, including:
+
+1. Hexadecimal: Hexadecimal colors are specified using a six-digit code, such as #ffffff for white and #000000 for black.
+2. RGB: RGB colors are specified using three numbers, representing the red, green, and blue components of the color. For example, rgb(255, 0, 0) is red and rgb(0, 0, 255) is blue.
+3. HSL: HSL colors are specified using three numbers, representing the hue, saturation, and lightness of the color. For example, hsl(0, 100%, 50%) is red and hsl(120, 100%, 50%) is green.
+
+[4] CSS3 Background - CSS3 backgrounds can be specified using a variety of properties, including:
+
+background-color
+background-image
+background-repeat
+background-position
+background-attachment
+
+[5] CSS3 Fonts - CSS3 fonts can be specified using a variety of properties, including:
+
+font-family, font-style, font-size, font-weight, font-variant
+
+[6] CSS3 Tables- CSS3 tables can be styled using a variety of properties, including:
+
+border-collapse, caption-side, empty-cells, table-layout
+
+[7] CSS3 Lists - CSS3 lists can be styled using a variety of properties, including:
+
+list-style-type, list-style-position, list-style-image
+
+[8] CSS3 Selectors - CSS3 selectors are used to select the elements that should be styled. There are a variety of selectors available, including:
+
+1. Element selectors: Element selectors select all elements of a particular type. For example, the h1 selector will select all heading elements.
+2. Class selectors: Class selectors select all elements with a particular CSS class. For example, the .my-class selector will select all elements with the class my-class.
+3. ID selectors: ID selectors select all elements with a particular CSS ID. For example, the #my-id selector will select the element with the ID my-id.
+
+[9] CSS3 Pseudo Classes - 
+CSS3 pseudo classes are used to select elements based on their state. For example, the :hover pseudo class will select all elements when the user hovers over them.
+
+[10] CSS3 Pseudo Elements -
+CSS3 pseudo elements are used to select specific parts of an element. For example, the ::first-line pseudo element will select the first line of a paragraph.
+
+CONCLUSION -
+
+Here in this experiment we successfully implemented Css on last html file
