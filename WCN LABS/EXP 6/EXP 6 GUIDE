@@ -1,0 +1,33 @@
+6* Node.Js : Installation and Configuration, Callbacks, Event loops, Creating express app
+
+WCNL EXP 6
+
+AIM - Node.Js : Installation and Configuration, Callbacks, Event loops, Creating express app
+
+THEORY - 
+
+[1] Node.js Installation and Configuration
+
+1. To install Node.js, you can go to the Node.js website and download the latest version for your operating system. Once you have downloaded the installer, run it and follow the instructions to install Node.js.
+2. Once Node.js is installed, you can verify that it is working by running the following command in a terminal: 'node -v'
+   This should print out the version of Node.js that is installed on your system.
+3. To configure Node.js, you can create a .npmrc file in your home directory. This file can contain configuration options for the Node Package Manager (npm).
+   For example, the following .npmrc file configures npm to use a proxy server:  'proxy=http://localhost:8080'
+
+[2] Callbacks - Callbacks are functions that are passed to other functions as arguments. They are used to handle asynchronous operations, such as reading a file from the disk or making a network request.
+    When you call an asynchronous function, you pass it a callback function. The asynchronous function will execute the callback function when the operation is complete.
+
+    The fs.readFile() function takes two arguments: the path to the file to read and a callback function. The callback function is called with two arguments: an error object and the data from the file.
+    If there is an error reading the file, the callback function is called with the error object. Otherwise, the callback function is called with the data from the file.
+
+[3] Event Loops - Node.js uses an event loop to handle asynchronous operations. The event loop is a loop that continuously checks for events and then executes callbacks when those events occur.
+    When you call an asynchronous function in Node.js, the function is placed on the event loop queue. The event loop then monitors the queue and executes callbacks when they are ready.
+    This allows Node.js to handle multiple asynchronous operations at the same time without blocking the main thread.
+
+[4] Creating an Express App -Express is a popular web framework for Node.js. It provides a simple way to create web servers and APIs.
+    To create an Express app, you can use the following command:  'npm install express'
+    This will install the Express package to your project's node_modules directory.
+    The app object is your Express app. You can use it to define routes, middleware, and other components of your web application. To define a route, you can use the app.get() method. The app.get() method takes a path and a callback function as arguments. 
+    The callback function is called when a user makes a GET request to the specified path.
+
+CONCLUSION - We successfully implemented and created Node js express app 
