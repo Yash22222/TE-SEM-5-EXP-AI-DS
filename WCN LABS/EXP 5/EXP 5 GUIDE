@@ -1,0 +1,33 @@
+5* React:Installation and Configuration. JSX, Components, Props, State, Forms, Events, Routers, Refs, Keys.
+
+WCNL EXP 5
+
+AIM - React : Installation and Configuration. JSX, Components, Props, State, Forms, Events, Routers, Refs, Keys.
+
+THEORY - 
+
+[1] React Installation and Configuration - To install React, you can use the following command: 'npm install react react-dom --save' This will install React and React DOM to your project's node_modules directory.
+    To configure React, you need to create a jsx transformer in your .babelrc file. This will allow you to use JSX syntax in your React components.
+
+[2] JSX - JSX is a syntax extension to JavaScript that allows you to write HTML elements in JavaScript. This makes it easy to create dynamic and interactive user interfaces.
+    To use JSX, you need to import the React library. Then, you can use the < and > characters to define HTML elements.
+
+[3] Components - React components are reusable pieces of code that can be used to build user interfaces. Components can be nested together to create complex layouts.
+    To create a component, you use the function keyword followed by the component name.
+
+[4] Props - Props are used to pass data from a parent component to a child component. Props are immutable, which means that they cannot be changed by the child component.
+    To pass a prop to a component, you use the propName attribute.
+
+[5] State - State is used to manage data that is specific to a component. State can be changed by the component itself.
+    To use state, you need to declare a state variable in your component.
+
+[6] Forms - React forms are used to collect data from users. To create a form, you use the <form> element.
+    To handle form submissions, you use the onSubmit event handler.
+
+[7] Events - React events are used to respond to user interactions. To listen for an event, you use the addEventListener() method.
+
+[8] Routers - React routers are used to navigate between different pages in your application. To use a router, you need to install a third-party library, such as react-router-dom.
+
+CONCLUSION -
+
+We successfully created react app 
