@@ -1,0 +1,62 @@
+1*           HTML:Elements, Attributes, Head, Body, Hyperlink, Formatting, Images, Tables, List, Frames, Forms, Multimedia
+
+WCNL EXP NO - 1
+
+AIM - HTML:Elements, Attributes, Head, Body, Hyperlink, Formatting, Images, Tables, List, Frames, Forms, Multimedia
+
+THEORY - 
+
+HTML (Hypertext Markup Language) is the standard markup language used for creating web pages. It consists of various elements, attributes, and features that allow you to structure and present content on the web. 
+
+[1] Elements:- HTML elements are the building blocks of web pages. They are represented by tags, which are enclosed in angle brackets (< >). Some commonly used elements include:
+
+1. <html>: Represents the root element of an HTML page.
+2. <head>: Contains meta-information about the web page, such as the title, character encoding, and linked CSS stylesheets.
+3. <body>: Represents the content of the web page, including text, images, links, and other elements.
+4. <a>: Creates a hyperlink, allowing users to navigate to another web page or a specific section within the same page.
+5. <h1> to <h6>: Defines headings of different levels, with <h1> being the highest (most important) and <h6> the lowest.
+6. <p>: Defines a paragraph.
+7. <img>: Inserts an image into the web page.
+8. <table>: Creates a table for displaying tabular data.
+9. <ul> and <ol>: Represent unordered and ordered lists, respectively.
+10. <iframe>: Embeds another HTML page or external content within the current page.
+11. <form>: Defines a form for collecting user input.
+12. <video> and <audio>: Allow embedding multimedia content, such as videos and audio files.
+
+[2] Attributes:- HTML elements can have attributes that provide additional information or control their behavior. Some commonly used attributes include:
+
+1. href: Specifies the destination URL for hyperlinks.
+2. src: Specifies the source URL for images, videos, or audio files.
+3. alt: Provides alternative text for images (useful for accessibility).
+4. colspan and rowspan: Define the number of columns or rows a table cell should span.
+5. width and height: Specify the dimensions of an element (e.g., an image or a table cell).
+6. Head and Body: The <head> element contains meta-information about the web page and is not displayed on the actual page. It typically includes the page title, linked CSS stylesheets, JavaScript files, and meta tags. 
+   The <body> element contains the visible content of the web page, such as text, images, and other HTML elements.
+
+[3] Hyperlink:- The <a> element is used to create hyperlinks. It requires the href attribute, which specifies the URL of the destination. Users can click on the link to navigate to the specified URL or location within the same page.
+
+[4] Formatting:- HTML provides various elements and attributes for text formatting, such as:
+
+1. <b>: Renders text in bold.
+2. <i>: Renders text in italics.
+3. <u>: Renders text with an underline.
+4. <strong>: Indicates strong importance (typically rendered in bold).
+5. <em>: Indicates emphasis (typically rendered in italics).
+
+[5] Images:- The <img> element is used to insert images into a web page. It requires the src attribute, which specifies the URL of the image file. You can also include the alt attribute to provide alternative text for the image.
+
+[6] Tables:- The <table> element is used to create tables in HTML. It consists of rows (<tr>) and cells (<td> or <th>). Tables can be used to display data in a tabular format.
+
+[7] Lists:- HTML provides two types of lists: unordered lists (<ul>) and ordered lists (<ol>). List items are represented by the <li> element. 
+    Unordered lists are typically displayed with bullet points, while ordered lists are displayed with sequential numbers or letters.
+
+[8] Frames:- The <iframe> element is used to embed another HTML page or external content within the current page. It allows you to display content from different sources or split the page into multiple sections.
+
+[9] Forms:- The <form> element is used to create interactive forms on web pages. It contains input elements (<input>, <select>, <textarea>) for users to enter and submit data.
+
+[10] Multimedia:- HTML provides elements like <video> and <audio> to embed multimedia content, such as videos and audio files, directly into web pages. These elements support various attributes and provide a built-in player for playback.
+
+CONCLUSION - 
+
+We Successfully Implemented simple HTML Page using given attributes.
+
