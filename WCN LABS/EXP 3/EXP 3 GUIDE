@@ -1,0 +1,54 @@
+3*  Bootstrap:BootstrapGrid system, Forms, Button, Navbar, Breadcrumb, Jumbotron
+
+WCNL EXP NO - 3
+
+AIM - Bootstrap : BootstrapGrid system, Forms, Button, Navbar, Breadcrumb, Jumbotron
+
+THEORY -
+
+Bootstrap is a front-end framework that provides a set of CSS and JavaScript components for building responsive websites.
+
+[1] Bootstrap Grid System - 
+
+1. The Bootstrap grid system is a responsive layout system that helps you create websites that look good on all devices, from desktops to smartphones. The grid system is based on a 12-column layout, 
+and you can use it to create any type of layout you need, from simple one-column layouts to complex multi-column layouts.
+
+2. To use the Bootstrap grid system, you simply need to wrap your content in .container or .container-fluid classes. The .container class will create a fixed-width grid, while the .container-fluid class will create a fluid-width grid.
+
+3. Once you have wrapped your content in a .container or .container-fluid class, you can then create columns using the .col-* classes. The * in the .col-* class represents the number of columns you want to create. 
+For example, the .col-4 class will create a four-column layout.
+
+[2] Bootstrap Forms - 
+
+1. Bootstrap provides a variety of form components, such as input fields, select boxes, and buttons. You can use these components to create any type of form you need, from simple contact forms to complex registration forms.
+
+2. To use a Bootstrap form component, simply add the appropriate .form-control class to the element. For example, to add an input field, you would add the .form-control class to an <input> element.
+
+[3] Bootstrap Buttons - 
+
+1. Bootstrap provides a variety of button styles, such as primary buttons, secondary buttons, and danger buttons. You can use these buttons to add interactivity to your website.
+
+2. To add a Bootstrap button, simply add the .btn class to an <button> element. You can then add a style class, such as .btn-primary or .btn-danger, to the button to change its appearance.
+
+[3] Bootstrap Navbar - 
+
+1. The Bootstrap navbar is a component that you can use to create a navigation bar for your website. The navbar can be placed at the top or bottom of your website, and it can contain links to other pages on your website.
+
+2. To add a Bootstrap navbar, simply add the .navbar class to a <nav> element. You can then add links to other pages on your website using the <a> element.
+
+[4] Bootstrap Breadcrumb - 
+
+1. The Bootstrap breadcrumb is a component that you can use to show the user's location within your website's navigation hierarchy. The breadcrumb can be placed at the top of any page on your website.
+
+2. To add a Bootstrap breadcrumb, simply add the .breadcrumb class to a <ol> element. You can then add links to the breadcrumb using the <li> element.
+
+[5] Bootstrap Jumbotron -
+
+The Bootstrap jumbotron is a component that you can use to create a large, prominent section of content on your website. The jumbotron can be used to highlight important information, 
+such as your website's main value proposition or a call to action.
+
+COCNLUSION -
+
+Here we successfully implemented Bootstrap.
+
+To add a Bootstrap jumbotron, simply add the .jumbotron class to a <div> element. You can then add content to the jumbotron, such as a heading, paragraph, and button.
