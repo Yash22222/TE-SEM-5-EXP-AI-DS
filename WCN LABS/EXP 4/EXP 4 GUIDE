@@ -1,0 +1,35 @@
+4* Javascript:Variables, Operators, Conditions, Loops, Functions, Events, Classes and Objects, Error handling, Validations, Arrays, String, Date
+
+EXP NO 4 WCNL
+
+AIM - Javascript : Variables, Operators, Conditions, Loops, Functions, Events, Classes and Objects, Error handling, Validations, Arrays, String, Date
+
+THEORY -
+JavaScript Basics
+
+[1] Variables - JavaScript variables are used to store data. To declare a variable, you use the var keyword followed by the variable name.
+
+[2] Operators - JavaScript operators are used to perform operations on data. There are many different types of operators in JavaScript, including arithmetic operators, comparison operators, logical operators, 
+    and assignment operators.
+
+[3] Conditions - JavaScript conditions are used to control the flow of your program. You can use conditions to check if a statement is true or false, and then execute different code based on the result.
+
+[4] Loops - JavaScript loops are used to repeat a block of code until a certain condition is met. There are three types of loops in JavaScript: for loops, while loops, and do-while loops.
+
+[5] Functions - JavaScript functions are blocks of code that can be reused. To define a function, you use the function keyword followed by the function name and a list of parameters.
+
+[6] Events - JavaScript events are used to respond to user interactions, such as clicking on a button or moving the mouse. To listen for an event, you use the addEventListener() method
+
+[7] Classes and Objects - JavaScript classes and objects are used to create reusable code and organize your data. To create a class, you use the class keyword followed by the class name
+
+[8] Error Handling - JavaScript error handling is used to catch and handle errors that occur in your program. To handle an error, you use the try and catch statements
+
+[9] Validations - JavaScript validations are used to validate user input. For example, you can use validations to check if an email address is valid or if a password is strong enough.
+
+[10] Arrays - JavaScript arrays are used to store collections of data. To create an array, you use the [] brackets
+
+[11] Date - JavaScript dates are used to represent dates and times. To create a date, you use the new Date() constructor.
+
+CONCLUSION -
+
+Here we successfully implemented placement registration form using javascript and applying validation on date, number, email id and percentage.
