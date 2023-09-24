@@ -1,0 +1,27 @@
+Lab Code                                 Lab Name                                   Credit
+ CSL501                        Web Computing and Network Lab                           1
+
+Star (*) Marked Experiments are Compulsory.
+
+
+Sr. No.      Name of the Experiment
+
+1*           HTML:Elements, Attributes, Head, Body, Hyperlink, Formatting, Images, Tables, List, Frames, Forms, Multimedia
+
+2*           CSS3.Syntax, Inclusion, Color, Background, Fonts, Tables, lists,CSS3 selectors, Pseudo classes, Pseudo elements .
+
+3            Bootstrap:BootstrapGrid system, Forms, Button, Navbar, Breadcrumb, Jumbotron
+
+4*           Javascript:Variables, Operators, Conditions, Loops, Functions, Events, Classes and Objects, Error handling, Validations, Arrays, String, Date
+
+5*           React:Installation and Configuration. JSX, Components, Props, State, Forms, Events, Routers, Refs, Keys.
+
+6*           Node.Js:Installation and Configuration, Callbacks, Event loops, Creating express app
+
+7*           To design and simulate the environment for Dynamic routing using Cisco packet tracer/ GNS3
+
+8*           To design and Simulate VLANs on the switch/router using Cisco packet tracer/ GNS3
+
+9*           To design and Simulate NAT on the router using Cisco packet tracer/ GNS3
+
+10*          Simulation of Software Defined Network using Mininet
